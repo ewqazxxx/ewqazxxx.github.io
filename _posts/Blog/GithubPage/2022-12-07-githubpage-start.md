@@ -97,7 +97,7 @@ bundle exec jekyll serve
 
 ## 깃허브페이지 시작
 
-### 1. 깃허브페이지 원격repo 생성
+### 1. 원격repo 생성
  - 본인 깃허브 Repositories > New > Repository name에 {username}.github.io 작성하고 create
 ![githubpage-start-001.PNG](/assets/img/posts/GihubPage/githubpage-start-001.PNG)
 _Repository name_
@@ -107,16 +107,19 @@ _Repository name_
 ![githubpage-start-002.PNG](/assets/img/posts/GihubPage/githubpage-start-001.PNG)
 _Branch_
 
-### 3. 깃허브페이지 로컬repo 생성하고 원격repo에 연결
- - 작업 폴더에서 cmd창 열고 아래 git 명령어 실행
+### 3. 로컬repo 생성하고 원격repo와 연결
+ - 작업 폴더에서 cmd창 열고 아래 git 명령어 순서대로 실행
 ```
-git clone {원격repo 주소}
+git init
 git add .
 git commit -m "init"
 git branch -M main
 git remote add origin {원격repo 주소}
 git push -u origin main
 ```
-### 4. 깃허브페이지 접속
+### 4. 내 깃허브페이지 접속
+ - [https://ewqazxxx.github.io](https://ewqazxxx.github.io)
+
+<br>
 
 ## 끝.
