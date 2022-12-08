@@ -104,7 +104,7 @@ _Repository name_
 
 ### 2. 원격repo 설정
  - 생성한 원격repo Settings > Pages > Branch를 main으로 변경하고 save
-![githubpage-start-002.PNG](/assets/img/posts/GihubPage/githubpage-start-001.PNG)
+![githubpage-start-002.PNG](/assets/img/posts/GihubPage/githubpage-start-002.PNG)
 _Branch_
 
 ### 3. 로컬repo 생성하고 원격repo와 연결
@@ -115,8 +115,10 @@ git add .
 git commit -m "init"
 git branch -M main
 git remote add origin {원격repo 주소}
+git pull origin main --allow-unrelated-histories
 git push -u origin main
 ```
+
 ### 4. 내 깃허브페이지 접속
  - [https://ewqazxxx.github.io](https://ewqazxxx.github.io)
 
