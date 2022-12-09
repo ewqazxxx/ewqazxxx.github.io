@@ -121,7 +121,3 @@ git push -u origin main
 
 ### 4. 내 깃허브페이지 접속
  - [https://ewqazxxx.github.io](https://ewqazxxx.github.io)
-
-<br>
-
-## 끝.
